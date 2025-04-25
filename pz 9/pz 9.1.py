@@ -10,7 +10,7 @@ counter_spisok = 0
 for i in list_str:
     if i not in tytyty_list:
         tytyty_list[i] = 1
-        counter_keys += 1
+        counter_spisok += 1
     else:
         tytyty_list[i] += 1
 
