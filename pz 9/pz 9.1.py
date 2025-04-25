@@ -5,7 +5,7 @@
 string = "Изучаем язык Питон"
 list_str = string.split()
 tytyty_list = dict()
-counter_keys = 0
+counter_spisok = 0
 
 for i in list_str:
     if i not in tytyty_list:
@@ -18,4 +18,4 @@ print("Количество повторений уникальных слов:"
 for i in tytyty_list.items():
     print(i)
 
-print(f"Количество уникальных слов: {counter_keys}")
+print(f"Количество уникальных слов: {counter_spisok}")
