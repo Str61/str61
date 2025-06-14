@@ -20,3 +20,5 @@ for i  in l:
         f2.write(i)
     elif i != l[-1]:
         f2.write(i)
+
+#tytyty
